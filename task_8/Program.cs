@@ -4,11 +4,13 @@
 Console.Write("Введите число: ");
 int N = int.Parse(Console.ReadLine()!);
 
-while(N >= 1)
+int i = 1;
+
+while(i <= N)
 {
-    if(N % 2 == 0)
+    if(i % 2 == 0)
 {
-    Console.Write(N + " ");
+    Console.Write(i + " ");
 }
-    N = N - 1;
+    i = i + 1;
 }
